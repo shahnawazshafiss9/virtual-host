@@ -29,3 +29,22 @@
 ```
 sudo chmod -R 777 storage/ 	
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------Window Vitual Host---------------------------------------------------------------------------------
+
+## First Changes
+``` 
+C:\Windows\System32\drivers\etc\hosts
+127.0.0.1       site.com
+```
+
+
+## Second changes
+
+```
+c:\xampp\apache\conf\extra\httpd-vhosts.conf
+<VirtualHost *:80>
+    DocumentRoot "D:\xampp\htdocs\site"
+    ServerName site.com
+</VirtualHost>
+```
