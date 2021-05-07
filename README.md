@@ -25,11 +25,12 @@
  sudo nano /etc/hosts
  ```
  127.0.0.1   site.com
- ``
+ ```
  ## set permission to storage directory	
+ 
 ```
 sudo chmod -R 777 storage/ 	
-
+```
 
 # -----------Window Vitual Host----------------------
 
